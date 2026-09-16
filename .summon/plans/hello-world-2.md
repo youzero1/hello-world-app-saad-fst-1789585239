@@ -1,5 +1,5 @@
 ---
-status: pending
+status: implemented
 title: Hello World 2 — single-page minimal greeting
 ---
 
