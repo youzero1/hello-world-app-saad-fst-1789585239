@@ -8,7 +8,7 @@ export const Route = createRootRoute({
 // The app shell: light, full-height, no header/nav/footer — intentionally single-page.
 function RootLayout() {
   return (
-    <div className="min-h-screen bg-green-50 text-green-900 antialiased">
+    <div className="min-h-screen bg-blue-50 text-blue-900 antialiased">
       <Outlet />
     </div>
   );
@@ -16,7 +16,7 @@ function RootLayout() {
 
 function NotFound() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-green-50 text-green-900">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-blue-50 text-blue-900">
       <p className="text-lg">This page does not exist.</p>
       <Link to="/" className="text-sm underline underline-offset-4">
         Go to the home page
